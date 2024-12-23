@@ -10,9 +10,11 @@ chmod 711 "$BASE_DIR/weblab/"
 chmod 644 "$BASE_DIR/weblab/index.html"
 
 # Set permissions for homework directories and their contents
-chmod 711 "$BASE_DIR/weblab/hw1/"
+chmod 711 "$BASE_DIR/weblab/ws0/"
+chmod 711 "$BASE_DIR/weblab/ws1/"
 
-chmod 644 "$BASE_DIR/weblab/hw1/"*
+chmod 644 "$BASE_DIR/weblab/ws0/"*
+chmod 644 "$BASE_DIR/weblab/ws1/"*
 
 
 echo "Permissions have been updated successfully."
